@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Encriptador</title>
+</head>
+<body>
+
+    <header>
+        <img src="img/Logo.png" alt="">
+    </header>
+           <!-------------------- contenedor 1------------------------- -->
+    
+        <div class="contenedor">
+
+  
+        <div class="contenedor-1">
+
+        <div class="contenedor-input">
+        <textarea name="" id=""  class="cajadetexto" placeholder="Ingrese el texto aqui" ></textarea>
+        </div>
+        
+        <div class="contenedor-info" >
+            <img class="img-info" src="img/boton-de-informacion.png" alt="">
+            <p>solo letras minusculas y sin acentos</p>
+        </div>
+        
+        <div class="botones">
+        
+        <button class="boton1"  onclick="btnencriptar()">Encriptar</button>
+        <button class="boton1-1" onclick="btndesencriptar()">Desincriptar</button>
+        </div>
+
+        </div>
+
+         <!-------------------- contenedor 1------------------------- -->
+        <div class="contenedor-2" >
+
+       <textarea name="" id="" cols="26" rows="15"  class="textarea2" ></textarea>
+
+       <div class="contenedor-texto">
+        
+        <h2>Ningun mensaje fue encontrado</h2>
+        <p>Ingrese el texto que desees encriptar o desincriptar</p>
+       </div>
+
+       <button class="boton2" onclick="copiartexto()">Copiar</button>
+
+       </div>
+    </div>
+
+     <footer class="pie">
+        <p>Realizado por © Néstor Martínez</p>
+     </footer>
+   <script src="script/script.js"></script>
+</body>
+</html>
